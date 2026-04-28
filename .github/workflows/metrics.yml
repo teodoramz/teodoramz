@@ -39,6 +39,7 @@ jobs:
 
           # head
           plugin_followup: yes
+          plugin_followup_sections: repositories
           plugin_introduction: yes
           plugin_introduction_title: yes
           plugin_isocalendar: no
@@ -62,8 +63,8 @@ jobs:
           plugin_habits_facts: yes
 
           # featured repos
-          # plugin_repositories: yes
-          # plugin_repositories_affiliations: owner, collaborator, organization_member
+          plugin_repositories: yes
+          plugin_repositories_affiliations: owner, collaborator, organization_member
 
           # show starred
           plugin_stars: yes
