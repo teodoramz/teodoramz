@@ -27,7 +27,7 @@ jobs:
           output_condition: data-changed
           filename: github-metrics.svg
           config_timezone: Europe/Bucharest
-          user: AndreiVladescu
+          user: teodoramz
 
           template: classic
           base: header, activity, community, repositories, metadata
