@@ -14,6 +14,9 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    # The deploy step pushes to the `output` branch; new repos give workflows read-only tokens by default
+    permissions:
+      contents: write
     steps:
       # Step 1: Checkout the repository
       - name: Checkout Repository
@@ -31,7 +34,13 @@ jobs:
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      # Step 3: Deploy the generated files to the 'output' branch
+      # Step 3: Add the purrfile cat: a retro desktop header + a cat that hunts the snake
+      - name: Draw the purrfile cat
+        uses: teodoramz/purrfile@v1
+        with:
+          desktop: dist/desktop.svg
+          snake: dist/github-snake.svg dist/github-snake-dark.svg
+      # Step 4: Deploy the generated files to the 'output' branch
       - name: Deploy to Output Branch
         uses: peaceiris/actions-gh-pages@v3
         with:

@@ -1,4 +1,9 @@
 <div align="center">
+  <img src="https://raw.githubusercontent.com/teodoramz/teodoramz/output/desktop.svg" width="100%" alt="Mochi the cat on a tiny retro desktop with my pinned repos" />
+
+  <br clear="both">
+  <br>
+
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/teodoramz/teodoramz/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/teodoramz/teodoramz/output/github-snake.svg" />
