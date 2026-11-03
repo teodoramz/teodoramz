@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/teodoramz/teodoramz/output/desktop.svg" width="100%" alt="Mochi the cat on a tiny retro desktop with my pinned repos" />
+  <img src="https://raw.githubusercontent.com/teodoramz/teodoramz/output/desktop.svg" width="80%" alt="Mochi the cat on a tiny retro desktop with my pinned repos" />
 
   <br clear="both">
   <br>
