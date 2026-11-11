@@ -15,4 +15,8 @@
 
   <img src="https://raw.githubusercontent.com/teodoramz/teodoramz/output/github-metrics.svg" alt="GitHub Metrics" />
 
+  <br>
+  
+  <!-- certshelf:start -->
+  <!-- certshelf:end -->
 </div>
