@@ -17,7 +17,7 @@ jobs:
       - uses: teodoramz/certshelf@v1
         with:
           credly: teodor-amzuloiu
-          style: card
+          style: retro
           extra: |
             - name: CC Exam
               issuer: ISC2
